@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        logo: ["Oleo Script", "system-ui"],
+        primary: ["Poppins", "sans-serif"],
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        circularLight:
+          "repeating-radial-gradient(rgba(255, 255, 255, 0.4) 2px, transparent 5px, transparent 100px)",
       },
     },
   },
