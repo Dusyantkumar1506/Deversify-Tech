@@ -78,10 +78,9 @@ const Contact: React.FC = () => {
             Let&#39;s Make Your <span className="text-yellow-300">Brand</span>{" "}
             Brilliant
           </h1>
-          <p className="text-[15px] text-white mt-[1rem] opacity-75">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            alias reiciendis at doloribus natus autem, aut mollitia laborum a
-            cum?
+          <p className="text-[15px] text-white  mt-3 opacity-75 mb-4">
+            Ready to elevate your brand to new heights? Our dedicated team is
+            here to help you shine. Let's create something amazing together!
           </p>
           <a
             href={`tel:${phoneNumber}`}
