@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
           </h1>
           <p className="text-[15px] text-white  mt-3 opacity-75 mb-4">
             Ready to elevate your brand to new heights? Our dedicated team is
-            here to help you shine. Let's create something amazing together!
+            here to help you shine. Let&#39;s create something amazing together!
           </p>
           <a
             href={`tel:${phoneNumber}`}
